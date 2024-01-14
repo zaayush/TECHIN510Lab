@@ -20,12 +20,12 @@ with col1:
 
     <div class="profile-img">
 
-    ![]('/workspaces/TECHIN510Lab/PXL_20240102_000607702-EDIT.jpg')
+    ![]('PXL_20240102_000607702-EDIT.jpg')
     </div>
     """,
         unsafe_allow_html=True,
     )
-    st.image('/workspaces/TECHIN510Lab/PXL_20240102_000607702-EDIT.jpg')
+    st.image('PXL_20240102_000607702-EDIT.jpg')
 with col2:
     st.markdown(
         """
