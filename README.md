@@ -7,7 +7,7 @@ A personal website for TECHIN 510 Lab 1.
 Open the terminal and run the following commands:
 
 ```
-source .venv/Scripts/activate
+source venv/bin/activate
 pip install streamlit
 streamlit run app.py
 ```
