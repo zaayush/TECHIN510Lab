@@ -7,14 +7,14 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-col1, col2 = st.columns([0.3, 0.7])
+col1, col2 = st.columns([0.5, 0.5], gap="large")
 with col1:
     st.markdown(
         """
     <style>
     .profile-img img {
         width: 100%;
-        border-radius: 50%;
+        border-radius: 100%;
     }
     </style>
 
@@ -29,28 +29,67 @@ with col1:
 with col2:
     st.markdown(
         """
-    # Aayush Kumar (He/Him)
-                
+    #    
+    # Aayush Kumar 
+
     - MS Student at University of Washington
     - Technical Asssistant at Prototyping LAB, GIX
+    - Electrical Engineer
+    - Roboticist
+    
     """
     )
+
 
 st.markdown(
     """
 # Projects
 
-- [Smart Wearable](https://www.youtube.com/watch?v=UTy-pAyOvbw&t=29s)
-- [6 DOF Robotic Arm](https://www.youtube.com/watch?v=X7lOsNUw-w0)
-
 """
 )
+col3, col4 = st.columns([0.5, 0.5], gap="large")
+
+
+with col3:
+    st.markdown(
+        '''
+        [Smart Wearable](https://www.youtube.com/watch?v=UTy-pAyOvbw&t=29s)
+
+    '''
+    )
+    st.video("https://www.youtube.com/watch?v=UTy-pAyOvbw&t=29s")
+
+with col4:
+    st.markdown(
+        '''
+        [6 DOF Robotic Arm](https://www.youtube.com/watch?v=X7lOsNUw-w0)
+
+    '''
+    )
+    st.video("https://www.youtube.com/watch?v=X7lOsNUw-w0")
+
+      
+
 
 st.markdown(
     """
-# Contact
-""")
+# Hobbies
 
+- Playing table tennis
+- Making embedded Projects
+- Reverse engineering cool gadgets
+- Swimming
+
+""")
+st.markdown(
+    """
+# About
+
+I'am a Graduate Student at University of Washington majoring in Techhnology and Innovation - Robotics, and I have Bachelor's in Electronics and Electrical Engineer from Manipal University Jaipur with proficient technical skills in the field Embedded System Development, Robotics, 3D Printing, and Intellectual Property, Patent Prosecutions. 
+Moreover, I'am an Embedded Hardware and Robotics enthusiast. I like to explore new gadgets and 3D print my own designs. 
+I'am a fast learner who is always curious about new innovations in technology so that i can keep on upgrading my skill level to work on the latest technology.
+
+""")
 
 
 ft = """
