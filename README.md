@@ -15,15 +15,18 @@ Or just go the link : [Personal Portfolio](https://aayush9-techin510-lab1.azurew
 
 ## What's Included
 
-- `app.py`: The main Flask application
+- `app.py`: The main application made with streamlit
 
 ## Lessons Learned
 
-- How to use Streamlit to create a simple website
+- How to make a Web App using streamlit
 - How to use requirements.txt to manage Python dependencies
-- How to use GitHub Actions to deploy a website to Azure App Service
+- How to use venv to work on a project with localized python dependencies
+- How to use Azure App Service and GitHub actions to deploy the Web App
 
 ## Questions / Uncertainties
 
-- What if I want to make the profile picture round?
-- How to use a two column layout?
+- How the Azure App services know to setup an venv and install the python dependencies
+- How to customize the web page using css
+- Why we create .venv and not venv, both of them works only I don't see a venv file in github repo when using just venv (without the dot)
+- Do we also need to commit and push the venv file? Will is create any problems when the deployed code will be run by Azure App Service?
