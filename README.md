@@ -11,7 +11,7 @@ source venv/bin/activate
 pip install streamlit
 streamlit run app.py
 ```
-Or just go the link: aayush9-techin510-lab1.azurewebsites.net
+Or just go the link : [Personal Portfolio](aayush9-techin510-lab1.azurewebsites.net)
 
 ## What's Included
 
