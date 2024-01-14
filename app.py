@@ -20,12 +20,12 @@ with col1:
 
     <div class="profile-img">
 
-    ![]('https://lh6.googleusercontent.com/2pPD0hz5V1zpB935w4gnQkDdYQ0zPcrNc98f1GZVWe-QmbKwQj00dFxztnSD7Lsq8-bHy7o5R2bNM_vHH1IXAOB0spJZwzj6E_N_mCHcnbKGRj3XpbhGRTa5pL5C8mN1fQ=w1280')
+    ![]('/workspaces/TECHIN510Lab/PXL_20240102_000607702-EDIT.jpg')
     </div>
     """,
         unsafe_allow_html=True,
     )
-    st.image('https://lh6.googleusercontent.com/2pPD0hz5V1zpB935w4gnQkDdYQ0zPcrNc98f1GZVWe-QmbKwQj00dFxztnSD7Lsq8-bHy7o5R2bNM_vHH1IXAOB0spJZwzj6E_N_mCHcnbKGRj3XpbhGRTa5pL5C8mN1fQ=w1280')
+    st.image('/workspaces/TECHIN510Lab/PXL_20240102_000607702-EDIT.jpg')
 with col2:
     st.markdown(
         """
