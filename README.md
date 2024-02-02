@@ -1,4 +1,4 @@
-## TECHIN510Lab
+## TECHIN510Lab3
 
 A personal website for TECHIN 510 Lab 1.
 
@@ -12,7 +12,7 @@ source venv/bin/activate
 pip install streamlit
 streamlit run app.py
 ```
-Or just go the link : [Personal Portfolio]( )
+Or just go the link : [Personal Portfolio](https://aayush9-techin510-lab1.azurewebsites.net/)
 
 ## What's Included
 
@@ -21,11 +21,13 @@ Or just go the link : [Personal Portfolio]( )
 ## Lessons Learned
 
 - How to make a Web App using streamlit
-- How to use sqlite3 as the storage engine
-- How to create dropdowns and buttons using streamlit
-- How to use the Pydantic class to create forms
+- How to use requirements.txt to manage Python dependencies
+- How to use venv to work on a project with localized python dependencies
+- How to use Azure App Service and GitHub actions to deploy the Web App
 
 ## Questions / Uncertainties
 
-- How to store the web scraper data to sqlite3 if we can?
-- Will the Azure web app service be always active and how to memorize the data for each new user?
+- How the Azure App services know to setup an venv and install the python dependencies
+- How to customize the web page using css
+- Why we create .venv and not venv, both of them works only I don't see a venv file in github repo when using just venv (without the dot)
+- Do we also need to commit and push the venv file? Will is create any problems when the deployed code will be run by Azure App Service?
